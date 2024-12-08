@@ -2,8 +2,6 @@
 
 &default_transform { // Offset of 6 because the left side has 6 columns
     col-offset = <6>;
-    //if R4 i only want 5 offest cause missing one key
-
 };
 
 
@@ -18,9 +16,9 @@
         , <&pro_micro 029 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 031 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         */
-          <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          <&pro_micro  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro  3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro  9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
@@ -42,7 +40,7 @@
         , <&pro_micro 18 GPIO_ACTIVE_HIGH>
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
         , <&pro_micro 16 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 5 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 4 GPIO_ACTIVE_HIGH>
+        , <&pro_micro  5 GPIO_ACTIVE_HIGH>
+        , <&pro_micro  4 GPIO_ACTIVE_HIGH>
         ;
 };
