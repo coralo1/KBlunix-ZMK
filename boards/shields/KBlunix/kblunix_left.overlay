@@ -3,7 +3,7 @@
 
 &kscan0 {
 
-    row-gpios
+    row-gpios = 
         /*
         = <&pro_micro 031 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 002 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -11,16 +11,17 @@
         , <&pro_micro 020 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 017 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         */
-        = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
 
         
 
 
-    col-gpios
+    col-gpios = 
         /*
         = <&pro_micro 029 GPIO_ACTIVE_HIGH>
         , <&pro_micro 104 GPIO_ACTIVE_HIGH>
@@ -29,10 +30,10 @@
         , <&pro_micro 010 GPIO_ACTIVE_HIGH>
         , <&pro_micro 009 GPIO_ACTIVE_HIGH>
         */
-        = <&pro_micro 20 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
+          <&pro_micro 20 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 8  GPIO_ACTIVE_HIGH>
         , <&pro_micro 15 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 7 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 7  GPIO_ACTIVE_HIGH>
         , <&pro_micro 16 GPIO_ACTIVE_HIGH>
         , <&pro_micro 10 GPIO_ACTIVE_HIGH>
         ;
